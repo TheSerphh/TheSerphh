@@ -1,19 +1,19 @@
 <div align="center">
 
-<img src="./terminal.svg" width="100%"/>
+<img src="./terminal.svg" alt="Terminal Profile Card" width="800"/>
 
 <br><br>
 
-<a href="https://github.com/TheSerphh">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-
-<a href="https://linkedin.com">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-
-<a href="https://theglitchh.github.io">
-  <img src="https://img.shields.io/badge/Website-58A6FF?style=for-the-badge&logo=firefox-browser&logoColor=white"/>
-</a>
+<p align="center">
+  <a href="https://leetcode.com/u/TheSerphh"><samp>$ LeetCode</samp></a>
+  &nbsp;&nbsp;
+  <a href="https://linkedin.com/in/TheSerphh"><samp>$ Linkedin</samp></a>
+  &nbsp;&nbsp;
+  <a href="https://theserphh.github.io"><samp>$ Portfolio</samp></a>
+  &nbsp;&nbsp;
+  <a href="mailto:TheSerphh@tutamail.com"><samp>$ Mail</samp></a>
+  &nbsp;&nbsp;
+  <a href="https://twitter.com/TheSerphh"><samp>$ Twitter</samp></a>
+</p>
 
 </div>
