@@ -17,56 +17,46 @@
 
 .title {
   fill: #ebdbb2;
-  font-family: monospace;
+  font-family: "Courier New", monospace;
   font-size: 20px;
 }
 
 .prompt {
   fill: #b8bb26;
-  font-family: monospace;
+  font-family: "Courier New", monospace;
   font-size: 28px;
+  font-weight: bold;
 }
 
 .command {
   fill: #fabd2f;
-  font-family: monospace;
+  font-family: "Courier New", monospace;
   font-size: 28px;
 }
 
 .label {
   fill: #83a598;
-  font-family: monospace;
+  font-family: "Courier New", monospace;
   font-size: 26px;
 }
 
 .value {
   fill: #ebdbb2;
-  font-family: monospace;
+  font-family: "Courier New", monospace;
   font-size: 26px;
 }
 
 .dim {
   fill: #a89984;
-  font-family: monospace;
+  font-family: "Courier New", monospace;
   font-size: 26px;
 }
 
 .orange {
   fill: #fe8019;
-  font-family: monospace;
+  font-family: "Courier New", monospace;
   font-size: 28px;
-}
-
-.link {
-  fill: #83a598;
-  font-family: monospace;
-  font-size: 24px;
-  text-decoration: underline;
-  cursor: pointer;
-}
-
-.link:hover {
-  fill: #fabd2f;
+  font-weight: bold;
 }
 
 .cursor {
@@ -97,55 +87,38 @@
 <!-- Title -->
 <text x="220" y="78" class="title">sourav@archlinux: ~/profile</text>
 
-<!-- Line 1 -->
-<text x="90" y="155" class="prompt">sourav@archlinux:~$</text>
-<text x="520" y="155" class="command">whoami</text>
+<!-- Line 1: whoami -->
+<text x="90" y="155" class="prompt">$</text>
+<text x="160" y="155" class="command">whoami</text>
 
-<!-- Output -->
-<text x="90" y="210" class="value">Sourav (TheSerphh)</text>
+<!-- Output 1 -->
+<text x="90" y="210" class="value">  Sourav (@TheSerphh)</text>
 
-<!-- Line 2 -->
-<text x="90" y="290" class="prompt">sourav@archlinux:~$</text>
-<text x="520" y="290" class="command">fetch_profile</text>
+<!-- Line 2: fetch_profile -->
+<text x="90" y="290" class="prompt">$</text>
+<text x="160" y="290" class="command">fetch_profile</text>
 
-<!-- Profile Info -->
-<text x="90" y="365" class="label">Username</text>
-<text x="340" y="365" class="dim">:</text>
-<text x="390" y="365" class="value">@TheSerphh</text>
+<!-- Profile Info with tree-style formatting -->
+<text x="110" y="365" class="label">├── username</text>
+<text x="460" y="365" class="dim">→</text>
+<text x="510" y="365" class="value">@TheSerphh</text>
 
-<text x="90" y="420" class="label">Role</text>
-<text x="340" y="420" class="dim">:</text>
-<text x="390" y="420" class="value">Open-source Developer</text>
+<text x="110" y="420" class="label">├── role</text>
+<text x="460" y="420" class="dim">→</text>
+<text x="510" y="420" class="value">Open-source Developer</text>
 
-<text x="90" y="475" class="label">Focus</text>
-<text x="340" y="475" class="dim">:</text>
-<text x="390" y="475" class="value">Linux • C/C++ • Android • KDE</text>
+<text x="110" y="475" class="label">├── focus</text>
+<text x="460" y="475" class="dim">→</text>
+<text x="510" y="475" class="value">Linux • C/C++ • Android • KDE</text>
 
-<!-- Contact Section -->
-<text x="90" y="545" class="label">Contact</text>
-<text x="340" y="545" class="dim">:</text>
-
-<!-- Clickable Links -->
-<a href="https://github.com/TheSerphh" target="_blank">
-  <text x="390" y="545" class="link">github.com/TheSerphh</text>
-</a>
-
-<a href="https://twitter.com/TheSerphh" target="_blank">
-  <text x="780" y="545" class="link">twitter.com/TheSerphh</text>
-</a>
-
-<a href="mailto:sourav@example.com" target="_blank">
-  <text x="390" y="580" class="link">sourav@example.com</text>
-</a>
-
-<a href="https://linkedin.com/in/TheSerphh" target="_blank">
-  <text x="780" y="580" class="link">linkedin.com/in/TheSerphh</text>
-</a>
+<text x="110" y="530" class="label">└── status</text>
+<text x="460" y="530" class="dim">→</text>
+<text x="510" y="530" class="value">Preparing for FAANG &amp; GATE</text>
 
 <!-- Bottom Prompt -->
 <text x="90" y="620" class="orange">sourav@archlinux:~$</text>
 
 <!-- Cursor -->
-<rect x="520" y="598" width="18" height="30" rx="2" class="cursor"/>
+<rect x="530" y="598" width="18" height="30" rx="2" class="cursor"/>
 
 </svg>
