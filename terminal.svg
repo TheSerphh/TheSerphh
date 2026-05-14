@@ -126,6 +126,6 @@
 <text x="65" y="420" class="orange">sourav@archlinux:~$</text>
 
 <!-- Cursor -->
-<rect x="375" y="404" width="12" height="20" rx="2" class="cursor"/>
+<rect x="299" y="404" width="12" height="20" rx="2" class="cursor"/>
 
 </svg>
