@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./terminal.svg" alt="Terminal Profile Card" width="800"/>
+<!--<img src="./terminal.svg" alt="Terminal Profile Card" width="800"/> -->
 
 <br><br>
 
