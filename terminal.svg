@@ -1,4 +1,4 @@
-<svg width="1200" height="700" viewBox="0 0 1200 700" xmlns="http://www.w3.org/2000/svg">
+<svg width="800" height="480" viewBox="0 0 800 480" xmlns="http://www.w3.org/2000/svg">
 
 <style>
 .bg {
@@ -18,44 +18,44 @@
 .title {
   fill: #ebdbb2;
   font-family: "Courier New", monospace;
-  font-size: 20px;
+  font-size: 14px;
 }
 
 .prompt {
   fill: #b8bb26;
   font-family: "Courier New", monospace;
-  font-size: 28px;
+  font-size: 18px;
   font-weight: bold;
 }
 
 .command {
   fill: #fabd2f;
   font-family: "Courier New", monospace;
-  font-size: 28px;
+  font-size: 18px;
 }
 
 .label {
   fill: #83a598;
   font-family: "Courier New", monospace;
-  font-size: 26px;
+  font-size: 16px;
 }
 
 .value {
   fill: #ebdbb2;
   font-family: "Courier New", monospace;
-  font-size: 26px;
+  font-size: 16px;
 }
 
 .dim {
   fill: #a89984;
   font-family: "Courier New", monospace;
-  font-size: 26px;
+  font-size: 16px;
 }
 
 .orange {
   fill: #fe8019;
   font-family: "Courier New", monospace;
-  font-size: 28px;
+  font-size: 18px;
   font-weight: bold;
 }
 
@@ -70,55 +70,55 @@
 </style>
 
 <!-- Background -->
-<rect width="1200" height="700" class="bg"/>
+<rect width="800" height="480" class="bg"/>
 
 <!-- Terminal Window -->
-<rect x="60" y="45" width="1080" height="610" rx="18" class="window"/>
+<rect x="40" y="30" width="720" height="420" rx="12" class="window"/>
 
 <!-- Topbar -->
-<rect x="60" y="45" width="1080" height="52" rx="18" class="topbar"/>
-<rect x="60" y="83" width="1080" height="14" class="topbar"/>
+<rect x="40" y="30" width="720" height="36" rx="12" class="topbar"/>
+<rect x="40" y="56" width="720" height="10" class="topbar"/>
 
 <!-- Topbar Buttons -->
-<circle cx="95" cy="71" r="8" fill="#fb4934"/>
-<circle cx="125" cy="71" r="8" fill="#fabd2f"/>
-<circle cx="155" cy="71" r="8" fill="#b8bb26"/>
+<circle cx="65" cy="49" r="6" fill="#fb4934"/>
+<circle cx="85" cy="49" r="6" fill="#fabd2f"/>
+<circle cx="105" cy="49" r="6" fill="#b8bb26"/>
 
 <!-- Title -->
-<text x="220" y="78" class="title">sourav@archlinux: ~/profile</text>
+<text x="150" y="54" class="title">sourav@archlinux: ~/profile</text>
 
 <!-- Line 1: whoami -->
-<text x="90" y="155" class="prompt">$</text>
-<text x="160" y="155" class="command">whoami</text>
+<text x="65" y="105" class="prompt">$</text>
+<text x="115" y="105" class="command">whoami</text>
 
 <!-- Output 1 -->
-<text x="90" y="210" class="value">  Sourav (@TheSerphh)</text>
+<text x="65" y="140" class="value">  Sourav (@TheSerphh)</text>
 
 <!-- Line 2: fetch_profile -->
-<text x="90" y="290" class="prompt">$</text>
-<text x="160" y="290" class="command">fetch_profile</text>
+<text x="65" y="195" class="prompt">$</text>
+<text x="115" y="195" class="command">fetch_profile</text>
 
 <!-- Profile Info with tree-style formatting -->
-<text x="110" y="365" class="label">├── username</text>
-<text x="460" y="365" class="dim">→</text>
-<text x="510" y="365" class="value">@TheSerphh</text>
+<text x="80" y="245" class="label">├── username</text>
+<text x="320" y="245" class="dim">→</text>
+<text x="355" y="245" class="value">@TheSerphh</text>
 
-<text x="110" y="420" class="label">├── role</text>
-<text x="460" y="420" class="dim">→</text>
-<text x="510" y="420" class="value">Open-source Developer</text>
+<text x="80" y="280" class="label">├── role</text>
+<text x="320" y="280" class="dim">→</text>
+<text x="355" y="280" class="value">Open-source Developer</text>
 
-<text x="110" y="475" class="label">├── focus</text>
-<text x="460" y="475" class="dim">→</text>
-<text x="510" y="475" class="value">Linux • C/C++ • Android • KDE</text>
+<text x="80" y="315" class="label">├── focus</text>
+<text x="320" y="315" class="dim">→</text>
+<text x="355" y="315" class="value">Linux • C/C++ • Android • KDE</text>
 
-<text x="110" y="530" class="label">└── status</text>
-<text x="460" y="530" class="dim">→</text>
-<text x="510" y="530" class="value">Preparing for FAANG &amp; GATE</text>
+<text x="80" y="350" class="label">└── status</text>
+<text x="320" y="350" class="dim">→</text>
+<text x="355" y="350" class="value">Preparing for FAANG &amp; GATE</text>
 
 <!-- Bottom Prompt -->
-<text x="90" y="620" class="orange">sourav@archlinux:~$</text>
+<text x="65" y="420" class="orange">sourav@archlinux:~$</text>
 
 <!-- Cursor -->
-<rect x="530" y="598" width="18" height="30" rx="2" class="cursor"/>
+<rect x="375" y="404" width="12" height="20" rx="2" class="cursor"/>
 
 </svg>
