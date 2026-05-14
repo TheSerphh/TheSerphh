@@ -59,6 +59,12 @@
   font-weight: bold;
 }
 
+.gray {
+  fill: #a89984;
+  font-family: "Courier New", monospace;
+  font-size: 14px;
+}
+
 .cursor {
   fill: #fabd2f;
   animation: blink 1s steps(1) infinite;
@@ -91,29 +97,30 @@
 <text x="65" y="105" class="prompt">$</text>
 <text x="115" y="105" class="command">whoami</text>
 
-<!-- Output 1 -->
+<!-- Output 1 - Past role with correct timeframe -->
 <text x="65" y="140" class="value">  Sourav (@TheSerphh)</text>
+<text x="65" y="165" class="gray"> CS Engineer | Programmer at @ Srinsights.com (2023-2026) | GATE Aspirant</text>
 
 <!-- Line 2: fetch_profile -->
-<text x="65" y="195" class="prompt">$</text>
-<text x="115" y="195" class="command">fetch_profile</text>
+<text x="65" y="210" class="prompt">$</text>
+<text x="115" y="210" class="command">fetch_profile</text>
 
 <!-- Profile Info with tree-style formatting -->
-<text x="80" y="245" class="label">├── username</text>
-<text x="320" y="245" class="dim">→</text>
-<text x="355" y="245" class="value">@TheSerphh</text>
+<text x="80" y="255" class="label">├── username</text>
+<text x="320" y="255" class="dim">→</text>
+<text x="355" y="255" class="value">@TheSerphh</text>
 
-<text x="80" y="280" class="label">├── role</text>
-<text x="320" y="280" class="dim">→</text>
-<text x="355" y="280" class="value">Open-source Developer</text>
+<text x="80" y="290" class="label">├── role</text>
+<text x="320" y="290" class="dim">→</text>
+<text x="355" y="290" class="value">Open-source Developer</text>
 
-<text x="80" y="315" class="label">├── focus</text>
-<text x="320" y="315" class="dim">→</text>
-<text x="355" y="315" class="value">Linux • C/C++ • Android • KDE</text>
+<text x="80" y="325" class="label">├── focus</text>
+<text x="320" y="325" class="dim">→</text>
+<text x="355" y="325" class="value">Android • Kernels • Vibe Coding</text>
 
-<text x="80" y="350" class="label">└── status</text>
-<text x="320" y="350" class="dim">→</text>
-<text x="355" y="350" class="value">Preparing for FAANG &amp; GATE</text>
+<text x="80" y="360" class="label">└── status</text>
+<text x="320" y="360" class="dim">→</text>
+<text x="355" y="360" class="value">Preparing for GATE Exam</text>
 
 <!-- Bottom Prompt -->
 <text x="65" y="420" class="orange">sourav@archlinux:~$</text>
